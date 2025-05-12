@@ -1,5 +1,26 @@
 {
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/MichelaMilzoni/express-blog-intro#readme",
+  "bugs": {
+    "url": "https://github.com/MichelaMilzoni/express-blog-intro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelaMilzoni/express-blog-intro.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {}
 }
